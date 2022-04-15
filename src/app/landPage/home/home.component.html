@@ -1,0 +1,12 @@
+<div class="container megazine">
+    <div class="row">
+        <div class="col-4 mt-5" *ngFor="let item of numbers">
+            <div class="card" style="width: 18rem;">
+                <img src={{item.image}} class="card-img-top" />
+                <div class="card-body">
+                    <p class="card-text">{{item.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
