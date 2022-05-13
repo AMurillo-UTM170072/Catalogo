@@ -1,7 +1,7 @@
 <div class="container-fluid megazine">
     <app-navbar></app-navbar>
     <div class="row">
-        <div class="col-3 mt-3" *ngFor="let item of numbers">
+        <div class="col-3 mt-3 text-center" *ngFor="let item of numbers">
             <div class="card" style="width: 18rem;">
                 <img src={{item.image}} class="image-megazice">
                 <div class="card-body">
@@ -10,15 +10,4 @@
             </div>
         </div>
     </div>
-
-    <!-- <div class="row">
-        <div class="col-4 mt-5" >
-            <div class="card" (click)="clickEvent(item.id)" style="width: 18rem;">
-                <img src={{item.image}} class="card-img-top" />
-                <div class="card-body">
-                    <p class="card-text">{{item.description}}</p>
-                </div>
-            </div>
-        </div>
-    </div> -->
 </div>
