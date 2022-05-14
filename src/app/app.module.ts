@@ -10,13 +10,15 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
 import  { HomeComponent }  from './landPage/home/home.component';
 import { ArtculosComponent } from './Articulos/artculos/artculos.component';
 import { NavbarComponent } from './landPage/navbar/navbar.component';
+import { BongsGlassComponent } from './Articulos/bongs-glass/bongs-glass.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ArtculosComponent,
-    NavbarComponent
+    NavbarComponent,
+    BongsGlassComponent
   ],
   imports: [
     BrowserModule,

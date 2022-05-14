@@ -104,7 +104,7 @@ export class HomeComponent implements OnInit {
   constructor() { 
     
   }
-  clickEvent(id){
+  goToItem(id){
     console.log('movida',id);
   }
 

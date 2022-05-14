@@ -2,7 +2,7 @@
     <app-navbar></app-navbar>
     <div class="row">
         <div class="col-3 mt-3 text-center" *ngFor="let item of numbers">
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 18rem;" (click)="goToItem(item.id)">
                 <img src={{item.image}} class="image-megazice">
                 <div class="card-body">
                     <p class="card-text">{{item.description}}</p>
