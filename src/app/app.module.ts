@@ -9,16 +9,17 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
 /*componentes*/
 import  { HomeComponent }  from './landPage/home/home.component';
 import { ArtculosComponent } from './Articulos/artculos/artculos.component';
-import { NavbarComponent } from './landPage/navbar/navbar.component';
 import { BongsGlassComponent } from './Articulos/bongs-glass/bongs-glass.component';
+import { PageNotFoundComponent } from './landPage/page-not-found/page-not-found.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ArtculosComponent,
-    NavbarComponent,
-    BongsGlassComponent
+    BongsGlassComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

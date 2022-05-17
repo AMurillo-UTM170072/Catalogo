@@ -1,5 +1,4 @@
 import { enableProdMode } from '@angular/core';
-import { NavbarComponent } from './app/landPage/navbar/navbar.component';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
 import { AppModule } from './app/app.module';

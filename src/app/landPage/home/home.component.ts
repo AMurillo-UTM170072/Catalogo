@@ -1,4 +1,7 @@
+import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 import { Component, OnInit } from '@angular/core';
+import { Router, ActivatedRoute, ParamMap } from '@angular/router';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-home',
@@ -101,15 +104,18 @@ export class HomeComponent implements OnInit {
       },
     ]
     msg =''
-  constructor() { 
-    
+  constructor(
+    private route: ActivatedRoute,
+    private router: Router) { 
+     
   }
   goToItem(id){
-    console.log('movida',id);
+    if( id === 4){
+      this.router.navigate(['/bongGlass'])
+    }
   }
 
   ngOnInit(): void {
-    
   }
 
 }
