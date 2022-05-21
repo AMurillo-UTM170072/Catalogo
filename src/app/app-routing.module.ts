@@ -8,7 +8,8 @@ import { PageNotFoundComponent } from './landPage/page-not-found/page-not-found.
 //modulos de articulos 
 const routes: Routes = [
   {path: 'Home', component: HomeComponent },
-  {path: 'bongGlass', component: BongsGlassComponent  },
+  {path: 'bongGlass', component: BongsGlassComponent },
+  {path: 'wax', component: BongsGlassComponent },
   {path: '**', redirectTo:'Home'},
   { path: '**', component: PageNotFoundComponent },
 ];

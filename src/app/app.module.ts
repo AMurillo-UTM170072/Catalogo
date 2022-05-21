@@ -11,6 +11,9 @@ import  { HomeComponent }  from './landPage/home/home.component';
 import { ArtculosComponent } from './Articulos/artculos/artculos.component';
 import { BongsGlassComponent } from './Articulos/bongs-glass/bongs-glass.component';
 import { PageNotFoundComponent } from './landPage/page-not-found/page-not-found.component';
+import { WaxComponent } from './Articulos/wax/wax.component';
+import { BluntComponent } from './Articulos/blunt/blunt.component';
+import { GasMaskComponent } from './Articulos/gas-mask/gas-mask.component';
 
 
 @NgModule({
@@ -19,7 +22,10 @@ import { PageNotFoundComponent } from './landPage/page-not-found/page-not-found.
     HomeComponent,
     ArtculosComponent,
     BongsGlassComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    WaxComponent,
+    BluntComponent,
+    GasMaskComponent
   ],
   imports: [
     BrowserModule,

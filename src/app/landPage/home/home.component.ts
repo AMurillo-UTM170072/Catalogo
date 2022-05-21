@@ -110,7 +110,10 @@ export class HomeComponent implements OnInit {
      
   }
   goToItem(id){
-    if( id === 4){
+    if( id === 1){
+      this.router.navigate(['/wax'])
+    }
+    if( id === 5){
       this.router.navigate(['/bongGlass'])
     }
   }
